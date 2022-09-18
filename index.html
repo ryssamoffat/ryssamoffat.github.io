@@ -96,11 +96,11 @@
               <!-- Portfolio Grid Items-->
               <div class="row justify-content-center">
                   <!-- Portfolio Item 1-->
-                  <div class="col-md-4 col-lg-4 mb-5">
-                      <div class="portfolio-item mx-auto" data-bs-toggle="modal" data-bs-target="#portfolioModal1">
-                          <div class="portfolio-item-caption d-flex align-items-center justify-content-center h-100 w-100">
-                              <div class="portfolio-item-caption-content text-center text-white"><i class="fas fa-plus fa-3x"></i></div>
-                          </div>
+                  <div class="col-md-6 col-lg-6 mb-5 mb-lg-0">
+                    <div class="portfolio-item mx-auto" data-toggle="modal" data-target="#SoBA Lab">
+                             <div class="portfolio-item-caption d-flex align-items-center justify-content-center h-100 w-100">
+                                 <div class="portfolio-item-caption-content text-center text-white"><i class="fas fa-plus fa-3x"></i></div>
+                             </div>
                           <img class="img-fluid" src="assets/img/portfolio/SoBA Lab.png" alt="..." />
                       </div>
                   </div>
@@ -144,37 +144,42 @@
         </div>
         <!-- Portfolio Modals-->
         <!-- Portfolio Modal 1-->
-        <div class="portfolio-modal modal fade" id="portfolioModal1" tabindex="-1" aria-labelledby="portfolioModal1" aria-hidden="true">
-            <div class="modal-dialog modal-xl">
-                <div class="modal-content">
-                    <div class="modal-header border-0"><button class="btn-close" type="button" data-bs-dismiss="modal" aria-label="Close"></button></div>
-                    <div class="modal-body text-center pb-5">
-                        <div class="container">
-                            <div class="row justify-content-center">
-                                <div class="col-lg-8">
-                                    <!-- Portfolio Modal - Title-->
-                                    <h2 class="portfolio-modal-title text-secondary text-uppercase mb-0">Social Brain In Action Lab</h2>
-                                    <!-- Icon Divider-->
-                                    <div class="divider-custom">
-                                        <div class="divider-custom-line"></div>
-                                        <div class="divider-custom-icon"><i class="fa-solid fa-brain"></i></div>
-                                        <div class="divider-custom-line"></div>
+        <div class="portfolio-modal modal fade" id="SoBA Lab" tabindex="-1" role="dialog" aria-labelledby="portfolioModal1Label" aria-hidden="true">
+                    <div class="modal-dialog modal-xl" role="document">
+                        <div class="modal-content">
+                            <button class="close" type="button" data-dismiss="modal" aria-label="Close">
+                                <span aria-hidden="true"><i class="fas fa-times"></i></span>
+                            </button>
+                            <div class="modal-body text-center">
+                                <div class="container">
+                                    <div class="row justify-content-center">
+                                        <div class="col-lg-12">
+                                            <!-- Portfolio Modal - Title-->
+                                            <h2 class="portfolio-modal-title text-secondary text-uppercase mb-0" id="portfolioModal1Label"> </h2>
+                                            <!-- Icon Divider-->
+                                            <div class="divider-custom">
+                                                <div class="divider-custom-line"></div>
+                                                <div class="divider-custom-icon"><i class="fas fa-brain"></i></div>
+                                                <div class="divider-custom-line"></div>
+                                            </div>
+                                            <p class="mb-5">
+                                                In my previous work, I’ve taken advantage of neuroimaging modalities such as functional MRI and electroencephalography (EEG) to shed light on the neural underpinnings of speech comprehension (Humphries et al., Frontiers Neuro 2014), the effects of rumination on negative affect (Lewis et al., Emotion, 2015), empathic responding (Decety, Lewis, & Cowell, J Neurophys 2015; Decety, Meidenbauer, & Cowell, Dev Science 2018), moral decision making (Meidenbauer et al., Child Dev 2016), and the development of intergroup attitudes (Meidenbauer et al., Dev Science 2018).</p>
+                                                <p class="mb-5">
+                                                More recently, I have begun using functional near-infrared spectroscopy (fNIRS), which is a portable neuroimaging modality that measures changes in cortical hemodynamics, similar to fMRI. One of the key benefits of fNIRS is its flexibility and portability as it can be used outside a standard laboratory setting. I recently condcuted a study to replicate the load-dependent prefrontal activation effect in fNIRS with a large sample and robust statistical analysis. By employing a multivariate analysis (behavioral partial least squares), I also found that the relationship between activity in the prefrontal cortex and task performance was dependent upon the difficulty of the task (Meidenbauer et al., NeuroImage, 2021).</p>
+                                                <p class="mb-5">
+                                                Addtionally, neuroimaging researchers have demonstrated the use of scale-free neural dynamics (as indexed by the Hurst exponent) to measure cognitive effort in fMRI and EEG (Churchill, et al., Sci Rep, 2015; Kardan et al., NeuroImage 2020). I was able to validate the use of this scale-free measure in fNIRS which can be applied to continuously measuring cognitive effort in naturalistic settings (Letourneaux, Meidenbauer et al., ADS 2020; Zhuang, Meidenbauer et al., biorxiv, 2021).
+                                            </p>
+                                            <button class="btn btn-primary" data-dismiss="modal">
+                                                <i class="fas fa-times fa-fw"></i>
+                                                Close Window
+                                            </button>
+                                        </div>
                                     </div>
-                                    <!-- Portfolio Modal - Image-->
-                                    <img class="img-fluid rounded mb-5" src="assets/img/portfolio/SoBA Lab.png" alt="..." />
-                                    <!-- Portfolio Modal - Text-->
-                                    <p class="mb-4"> Sobots for life! </p>
-                                    <button class="btn btn-primary" data-bs-dismiss="modal">
-                                        <i class="fas fa-xmark fa-fw"></i>
-                                        Close Window
-                                    </button>
                                 </div>
                             </div>
                         </div>
                     </div>
                 </div>
-            </div>
-        </div>
         <!-- Bootstrap core JS-->
         <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"></script>
         <!-- Core theme JS-->
