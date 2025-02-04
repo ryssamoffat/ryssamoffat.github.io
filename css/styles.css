@@ -5540,6 +5540,12 @@ textarea.form-control-lg {
   outline: 0;
 }
 
+.modal-content:hover {
+  background-color: #f8f9fa; /* Light background on hover */
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2); /* Add shadow on hover */
+  transition: background-color 0.3s ease, box-shadow 0.3s ease; /* Smooth transition */
+}
+
 .modal-backdrop {
   position: fixed;
   top: 0;
