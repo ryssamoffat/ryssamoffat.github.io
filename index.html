@@ -272,6 +272,16 @@
                 </div>
             </div>
         </div>
+        <!-- Custom JS to ensure backdrop is enabled -->
+<script>
+    var myModal = new bootstrap.Modal(document.getElementById('portfolioModal1'), {
+      backdrop: true, // Ensure backdrop is enabled
+      keyboard: true   // Allow closing modal with keyboard (Esc key)
+    });
+  
+    // You can also manually trigger it if needed:
+    myModal.show();
+  </script>
         <!-- Portfolio Modal 2-->
         <div class="portfolio-modal modal fade" id="portfolioModal2" tabindex="-1" aria-labelledby="portfolioModal2" aria-hidden="true">
             <div class="modal-dialog modal-xl">
