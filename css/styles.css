@@ -11490,9 +11490,16 @@ html {
 .portfolio .portfolio-item .portfolio-item-caption:hover {
   opacity: 1;
 }
-.portfolio .portfolio-item .portfolio-item-caption .portfolio-item-caption-content {
+/* .portfolio .portfolio-item .portfolio-item-caption .portfolio-item-caption-content {
   font-size: 1.5rem;
+} */
+.portfolio-item-caption-content i {
+  display: inline-block;
+  color: white; /* Make sure the icon is white */
+  font-size: 3rem; /* This ensures the icon size is appropriate */
+  transition: transform 0.3s ease; /* Optional: adds a smooth transition */
 }
+
 
 .portfolio-modal .btn-close {
   color: #1abc9c;
